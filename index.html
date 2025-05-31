@@ -12,8 +12,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      module.exports = {
+        theme: {
+          extend: {
+            colors: {
+              cream: '#FFFDD0',
+              forest: '#034601',
+            },
+          },
+        },
+      }
+    </script>
   </head>
-  <body class="bg-orange-100">
+  <body class="bg-cream text-forest">
+    <h1 class="text-center font-bold">TEST TEXT</h1>
     
   </body>
 </html>
